@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{855B03F6-E7E6-4009-BBA0-8B02E603C449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hakaton", "src\Hakaton\Hakaton.csproj", "{830EFE8F-F83D-40B8-8E01-AAF893ED92BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{75693810-7A44-45A3-9744-12DA1B31AA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hakaton.Test", "tests\Hakaton.Test\Hakaton.Test.csproj", "{37E4EB4F-F616-46DA-A082-31B8B275E38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830EFE8F-F83D-40B8-8E01-AAF893ED92BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830EFE8F-F83D-40B8-8E01-AAF893ED92BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830EFE8F-F83D-40B8-8E01-AAF893ED92BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830EFE8F-F83D-40B8-8E01-AAF893ED92BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E4EB4F-F616-46DA-A082-31B8B275E38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E4EB4F-F616-46DA-A082-31B8B275E38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E4EB4F-F616-46DA-A082-31B8B275E38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E4EB4F-F616-46DA-A082-31B8B275E38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{830EFE8F-F83D-40B8-8E01-AAF893ED92BD} = {855B03F6-E7E6-4009-BBA0-8B02E603C449}
+		{37E4EB4F-F616-46DA-A082-31B8B275E38A} = {75693810-7A44-45A3-9744-12DA1B31AA38}
+	EndGlobalSection
+EndGlobal
