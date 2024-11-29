@@ -15,4 +15,7 @@ Parallel.For(0, M, i =>
         costs[i, j] = costLine[j];
 });
 
+
 var (summary, allocations) = TransportationProblem.SolveByMinimalCost(costs, supplies, demands);
+
+using var writer = new StreamWriter("out.txt");
