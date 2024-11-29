@@ -19,3 +19,15 @@ Parallel.For(0, M, i =>
 var (summary, allocations) = TransportationProblem.SolveByMinimalCost(costs, supplies, demands);
 
 using var writer = new StreamWriter("out.txt");
+
+writer.WriteLine(summary);
+
+writer.WriteLine("Allocations:");
+for (int i = 0; i < allocations.GetLength(0); i++)
+{
+    for (int j = 0; j < allocations.GetLength(1); j++)
+    {
+        writer.Write($"{allocations[i, j]} ");
+    }
+    writer.WriteLine();
+}
